@@ -1,0 +1,35 @@
+<head>
+  <title>Accounts UI Bootstrap 3 with various themes</title>
+  <!-- change the theme here from cerulean to united, yeti, or darkly -->
+  <!-- can't see links in narrow width: cerulean, united -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.4/darkly/bootstrap.min.css">
+  <!-- link onhover too close to background color: yeti -->
+  <!-- doesn't look that great: darkly in widescreen -->
+  
+  <!-- no problem: cosmo, cybotg, flatly, journal, lumen, paper, readable, sandstone, simplex, slate, spacelab, superhero -->
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Change width, look at forgot/create links</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          {{> loginButtons}}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  
+</body>
